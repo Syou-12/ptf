@@ -16,14 +16,13 @@ a {
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Alkalami', serif;
     font-family: 'Noto Serif JP', serif;
     font-family: 'Oswald', sans-serif;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     padding-top: 100px;
-    padding-bottom: 80px;
 }
 
 h3 {
@@ -33,7 +32,7 @@ h3 {
 }
 
 main {
-    background-color: #998A6D;
+    background-color: #cabec0;
 }
 
 /* HEADER */
@@ -113,6 +112,12 @@ h1 {
 
 /* Service */
 
+.se-top p {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 80px;
+}
+
 .se {
     display: flex;
     justify-content: center;
@@ -135,6 +140,10 @@ h1 {
     margin-right: 10%;
 }
 
+.coding p {
+    padding-bottom: 30px;
+}
+
 .co-img {
     margin-top: 50px;
 }
@@ -142,6 +151,10 @@ h1 {
 .desain {
     margin-left: 10%;
     margin-right: 80px;
+}
+
+.desain p {
+    padding-bottom: 30px;
 }
 
 .de-img {
@@ -159,8 +172,15 @@ h1 {
     padding-bottom: 150px;
 }
 
+.wr-top p {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 80px;
+}
+
 .all {
     margin-left: 80px;
+    width: 500px;
 }
 
 .item {
@@ -171,14 +191,13 @@ h1 {
 .item img {
     width: 500px;
     height: 350px;
-    margin-left: 80px;
 }
 
 .ar img {
     width: 30px;
     height: 30px;
     margin-top: 30px;
-    margin-left: 40%;
+    margin-left: 50%;
 }
 
 /* アコーディオンパネル */
@@ -224,7 +243,6 @@ h1 {
 .box p {
     width: 500px;
     font-size: 20px;
-    text-align: center;
 }
 
 .text {
@@ -367,7 +385,7 @@ body.appear #container {
     }
 
     #header {
-        background-position: 70%;
+        background-position: right;
     }
 
     /* Service */
