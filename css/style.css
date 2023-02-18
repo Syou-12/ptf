@@ -374,33 +374,6 @@ body.appear #container {
         overflow-x: hidden;
     }
 
-    p {
-        font-family: 'Alkalami', serif;
-        font-family: 'Noto Serif JP', serif;
-    }
-    
-    a {
-        color: #000;
-        text-decoration: none;
-    }
-    
-    h2 {
-        font-size: 40px;
-        font-family: 'Alkalami', serif;
-        font-family: 'Noto Serif JP', serif;
-        font-family: 'Oswald', sans-serif;
-        font-family: 'Raleway', sans-serif;
-        text-align: center;
-        padding-top: 100px;
-    }
-    
-    h3 {
-        font-size: 20px;
-        font-family: 'Alkalami', serif;
-        font-family: 'Noto Serif JP', serif;
-    }
-    
-
     .nav-list {
         margin-right: 0;
     }
@@ -414,8 +387,6 @@ body.appear #container {
     #header {
         background-position: right;
         background-size: cover;
-        height: 900px;
-        width: 100%;
     }
 
     /* Service */
