@@ -487,6 +487,7 @@ body.appear #container {
 
     #header {
          background-image: url(../img/MV/MV.jpg);
+         width: 100%;
         background-position: right;
         background-size: cover;
     }
