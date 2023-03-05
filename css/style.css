@@ -488,7 +488,6 @@ body.appear #container {
          width: 100%;
          height: 600px;
         background-position: right;
-        background-size: cover;
     }
 
     /* Service */
