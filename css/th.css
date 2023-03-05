@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+img {
+    width: 100%;
+    height: 1200px;
+}
+
+.bt {
+    font-size: 20px;
+    max-width: 200px;
+    border: 1px solid #000;
+    padding: 5px 10px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 65px;
+    margin-bottom: 60px;
+}
+
+.bt:hover {
+    opacity: 0.5;
+}
