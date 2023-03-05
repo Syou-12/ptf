@@ -1,0 +1,591 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2? family= Alkalami & family= Noto+Serif+JP:wght@300 & family= Raleway:ital,wght@1,900 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Noto+Serif+JP:wght@300&family=Oswald&family=Raleway:ital,wght@1,900&display=swap');
+
+
+/* 共通 */
+
+p {
+    font-family: 'Alkalami', serif;
+    font-family: 'Noto Serif JP', serif;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'Alkalami', serif;
+    font-family: 'Noto Serif JP', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: 'Alkalami', serif;
+    font-family: 'Noto Serif JP', serif;
+}
+
+main {
+    background-color: #cabec0;
+}
+
+/* HEADER */
+
+#header {
+    background-image: url(../img/MV/MV.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 900px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top img {
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.top img:hover {
+    opacity: 0.75;
+}
+
+.nav-list {
+    display: flex;
+    margin-top: 20px;
+    margin-right: 150px;
+}
+
+.nav-list li a {
+    position: relative;
+}
+
+.nav-list a::after {
+    position: absolute;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #000;
+    bottom: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+.nav-list a:hover::after {
+    visibility: visible;
+    bottom: -10px;
+    opacity: 1;
+}
+
+li {
+    margin-right: 50px;
+    list-style-type: none;
+    font-family: 'Alkalami', serif;
+    font-family: 'Noto Serif JP', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    padding-top: 15%;
+    padding-left: 150px;
+    font-family: 'Alkalami', serif;
+    font-family: 'Noto Serif JP', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Service */
+
+.se-top p {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 80px;
+}
+
+.se {
+    display: flex;
+    justify-content: center;
+}
+
+.se h3 {
+    text-align: center;
+}
+
+.se p {
+    text-align: center;
+}
+
+.se img {
+    width: 80px;
+    height: 80px;
+}
+
+.coding {
+    margin-right: 10%;
+}
+
+.coding p {
+    padding-bottom: 30px;
+}
+
+.co-img {
+    margin-top: 50px;
+}
+
+.desain {
+    margin-left: 10%;
+    margin-right: 80px;
+}
+
+.desain p {
+    padding-bottom: 30px;
+}
+
+.de-img {
+    margin-top: 50px;
+}
+
+.se-text {
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+
+/* Works */
+
+#Works {
+    padding-bottom: 150px;
+}
+
+.wr-top p {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 80px;
+}
+
+.all {
+    margin-top: -90px;
+    width: 500px;
+}
+
+.ac-l {
+    display: flex;
+    justify-content: center;
+}
+
+.item img {
+    width: 500px;
+    height: 350px;
+}
+
+.ar img {
+    width: 30px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 48%;
+}
+
+/* アコーディオンパネル */
+
+/*アコーディオン全体*/
+.ac-list {
+    list-style: none;
+    width: 96%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.ac-list li {
+    margin: 10px 0;
+}
+
+
+/*アコーディオンタイトル*/
+.item {
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: normal;
+    transition: all .5s ease;
+}
+
+/*　closeというクラスがついたら形状変化　*/
+.ar.close::before {
+    transform: rotate(45deg);
+}
+
+.ar.close::after {
+    transform: rotate(-45deg);
+}
+
+/*アコーディオンで現れるエリア*/
+.box {
+    display: none;
+    /*はじめは非表示*/
+    margin: 0 3% 3% 3%;
+    padding: 3%;
+}
+
+.box p {
+    width: 500px;
+    font-size: 20px;
+}
+
+.text {
+    margin-top: 100px;
+    width: 500px;
+    text-align: center;
+}
+
+.bt {
+    border: 1px solid #333;
+    margin-top: 50px;
+    text-align: center;
+    width: 100px;
+    margin-left: 40%;
+    padding: 5px 0;
+}
+
+.sl-sp {
+    display: none;
+}
+
+#institution {
+    margin-bottom: 120px;
+}
+
+.slide-list {
+    margin: 0 auto;
+}
+
+.slide-list img {
+    width: 200px;
+    height: 250px;
+}
+
+.slide-item h3 {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+/* Contact */
+
+#contact {
+    padding-bottom: 30px;
+}
+
+form div {
+    margin-bottom: 14px;
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: 30%;
+    font-family: 'Alkalami', serif;
+    font-family: 'Noto Serif JP', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+input[type="email"] {
+    width: 40%;
+    margin: 0 30%
+}
+
+input[type="text"] {
+    width: 40%;
+    margin: 0 30%;
+
+}
+
+textarea {
+    width: 40%;
+    height: 385px;
+}
+
+input[type="submit"] {
+    border: none;
+    cursor: pointer;
+    margin: 0 30%;
+}
+
+#message {
+    border: 1px solid #000;
+    margin: 0 30%;
+}
+
+.email {
+    margin-bottom: 20px;
+}
+
+.btn {
+    font-size: 20px;
+    max-width: 200px;
+    border: 1px solid #000;
+    padding: 5px 10px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 65px;
+    margin-bottom: 60px;
+}
+
+.btn:hover {
+    opacity: 0.5;
+}
+
+
+/* FOOTER */
+
+footer {
+    margin-bottom: 50px;
+    height: 80px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Alkalami', serif;
+    padding-top: 40px;
+}
+
+/*========= ローディング画面のためのCSS ===============*/
+#splash {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #333;
+    z-index: 9999999;
+    text-align: center;
+    color: #fff;
+}
+
+#splash-logo {
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Alkalami', serif;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*========= 画面遷移のためのCSS ===============*/
+
+/*画面遷移アニメーション*/
+.splashbg {
+    display: none;
+}
+
+/*bodyにappearクラスがついたら出現*/
+body.appear .splashbg {
+    display: block;
+    content: "";
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    transform: scaleX(0);
+    background-color: #333;
+    /*伸びる背景色の設定*/
+    animation-name: PageAnime;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes PageAnime {
+    0% {
+        transform-origin: right;
+        transform: scaleX(0);
+    }
+
+    50% {
+        transform-origin: right;
+        transform: scaleX(1);
+    }
+
+    50.001% {
+        transform-origin: left;
+    }
+
+    100% {
+        transform-origin: left;
+        transform: scaleX(0);
+    }
+}
+
+/*画面遷移の後現れるコンテンツ設定*/
+
+#container {
+    opacity: 0;
+    /*はじめは透過0に*/
+}
+
+/*bodyにappearクラスがついたら出現*/
+body.appear #container {
+    animation-name: PageAnimeAppear;
+    animation-duration: 1s;
+    animation-delay: 0.8s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes PageAnimeAppear {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .nav-list {
+        margin-right: 0;
+        margin-left: 40px;
+    }
+
+    h1 {
+        padding-top: 30%;
+        margin-left: 50px;
+        padding-left: 0;
+    }
+
+    #header {
+         background-image: url(../img/MV/MV.jpg);
+         width: 100%;
+         height: 600px;
+        background-position: right;
+    }
+
+    /* Service */
+
+    .se {
+        flex-direction: column;
+    }
+
+    .coding {
+        margin: 0;
+    }
+
+    .co-img {
+        padding-left: 15%;
+    }
+
+    .desain {
+        margin: 0;
+    }
+
+    .de-img {
+        margin-left: 28%;
+    }
+
+    .ac-l {
+        flex-direction: column;
+    }
+
+    .item img {
+        margin: 0;
+        width: 370px;
+        height: 270px;
+    }
+
+    .ar img {
+        width: 30px;
+        height: 30px;
+        margin-left: 33%;
+        margin-top: 20px;
+    }
+
+    .all {
+        margin: 0;
+    }
+
+    .text {
+        width: 360px;
+        margin-left: 0;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .box {
+        margin-top: 0;
+        margin-left: 3%;
+        margin-right: 0;
+
+    }
+
+    .box p {
+        width: 300px;
+        text-align: center;
+    }
+
+    .bt {
+        margin-left: 22%;
+    }
+
+    label {
+        margin-left: 20%;
+    }
+
+    input[type="email"] {
+        width: 60%;
+        margin: 0 20%;
+    }
+
+    input[type="text"] {
+        width: 60%;
+        margin: 0 20%;
+    }
+
+    textarea {
+        width: 60%;
+        height: 200px;
+    }
+
+    #message {
+        margin: 0 20%;
+    }
+
+    .sl-sp {
+        display: block;
+    }
+
+    .sl-pc {display: none;}
+
+    .slide-item h3 {
+        margin-left: 60px;
+    }
+}
