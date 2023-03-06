@@ -479,6 +479,11 @@ body.appear #container {
         overflow-x: hidden;
     }
 
+    p {
+        font-family: 'Alkalami', serif;
+        font-family: 'Noto Serif JP', serif;
+    }
+
     .nav-list {
         margin-right: 0;
         margin-left: 40px;
@@ -488,6 +493,16 @@ body.appear #container {
         padding-top: 30%;
         margin-left: 50px;
         padding-left: 0;
+    }
+
+    h2 {
+        font-size: 40px;
+        font-family: 'Alkalami', serif;
+        font-family: 'Noto Serif JP', serif;
+        font-family: 'Oswald', sans-serif;
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+        padding-top: 100px;
     }
 
     #header {
