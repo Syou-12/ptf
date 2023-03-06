@@ -76,6 +76,7 @@ main {
 
 .nav-list li a {
     position: relative;
+    font-weight: 700;
 }
 
 .nav-list a::after {
