@@ -5,6 +5,13 @@
 
 /* 共通 */
 
+*{
+    font-family: 'Alkalami', serif;
+    font-family: 'Noto Serif JP', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
 p {
     font-family: 'Alkalami', serif;
     font-family: 'Noto Serif JP', serif;
