@@ -5,6 +5,10 @@
 
 /* 共通 */
 
+body {
+    overflow-x: hidden;
+}
+
 *{
     font-family: 'Alkalami', serif;
     font-family: 'Noto Serif JP', serif;
@@ -182,7 +186,7 @@ h1 {
 .wr-top p {
     text-align: center;
     padding-top: 10px;
-    padding-bottom: 80px;
+    padding-bottom: 60px;
 }
 
 .all {
@@ -369,8 +373,8 @@ input[type="submit"] {
 /* FOOTER */
 
 footer {
-    margin-bottom: 50px;
-    height: 80px;
+    height: 140px;
+    background-color: #000;
 }
 
 footer p {
@@ -379,6 +383,7 @@ footer p {
     font-weight: 700;
     font-family: 'Alkalami', serif;
     padding-top: 40px;
+    color: #fff;
 }
 
 /*========= ローディング画面のためのCSS ===============*/
